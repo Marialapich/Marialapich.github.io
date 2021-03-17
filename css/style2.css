@@ -1,0 +1,64 @@
+* {
+    margin: 5px;
+    padding: 5px;
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: rgb(236, 206, 236);
+}
+
+header{
+    text-align: center;
+    color: purple;
+    font-size: 30px;
+    padding: 5px; 
+}
+
+nav {
+    font-size: 20px;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;    
+    font-size: 30px;
+    color: rebeccapurple;
+}
+
+li{  
+    font-size: 17px;
+    text-align: justify;
+    font-style:italic;
+}
+
+th {
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(193, 139, 214); 
+    width: 5%;
+}
+
+tr {
+    font-size: 19px;
+    text-align: center;
+    background-color: rgb(210, 169, 221);
+    width: 5%;
+}
+
+p {
+    text-align:justify;
+    font-size: 17px;
+}
+
+footer {
+    background-color: rgb(166, 98, 172);
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    padding: 5px; 
+}
