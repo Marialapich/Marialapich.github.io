@@ -6,7 +6,7 @@ body {
     margin: 0;
     font-family:'Times New Roman', Times, serif;
     font-weight: 400;
-    background-color: #e9e9c5;
+    background-color: #fffdd0;
 }
 
 .header-images {
@@ -104,6 +104,9 @@ body {
 
 
 footer {
+    background-color: #6f4e37;
     color: #fff;
-    background: #525252;
+    font-size: 2em;
+    padding: 20px;
+    text-align: center;
 }
