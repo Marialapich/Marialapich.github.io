@@ -1,0 +1,106 @@
+@media screen and (min-width: 1201px) {
+   .container {
+      width: 100%;
+      max-width: 1200px;
+   }
+}
+
+@media screen and (max-width: 1200px) /* and (min-width: 1025px) */ {
+   .container {
+      max-width: 1140px;
+   }
+
+   header {
+      width: 100%;
+      height: auto;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+   }
+   header:after {
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      content: "";
+   }
+
+   .header .container {
+      height: auto;
+   }
+   
+   .block {
+      margin-bottom: 60px;
+   }
+
+   .card-coffee { 
+      flex: 0 0 33.333%;
+   }
+}
+@media screen and (max-width: 1024px) /* and (min-width: 769px) */ {
+   .container {
+      max-width: 780px;
+   }
+
+   .text {
+      padding: 20px 0;
+   }
+
+   .block {
+      margin-bottom: 45px;
+   }
+
+   .card-town {
+      flex: 0 0 41.66%;
+   }
+
+@media screen and (max-width: 768px)  {
+   .container {
+      max-width: 680px;
+   }
+   .nav-header {
+      display: none;
+   }
+   .header {
+      padding-bottom: 30px;
+   } 
+   .text {
+      padding: 15px 0;
+   }
+   .block {
+      max-width: 100%;
+      margin-bottom: 30px;
+   }
+   .card-coffee {
+      flex: 0 0 58.33%;
+   }
+}
+
+@media (max-width: 480px) /* and (min-width: 320px) */ {
+   .container {
+      max-width: 430px;
+      padding: 5px;
+   }
+
+   .text {
+      font-size: 24px;
+      padding: 13px 0;
+      line-height: 22px;
+   }
+
+   .block {
+      max-width: 100%;
+      margin-bottom: 20px;
+   }
+
+   .box {
+      padding: 10px;
+   }
+
+   .card-coffee{
+      flex: 0 0 91.66%;
+   }
+}
+}

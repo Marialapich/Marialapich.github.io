@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+    background-color: #e9e9c5;
+}
+
+.header-images {
+    background-image: url(../images/pexels-igor-haritanovich-1695052.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.7em;
+}
+
+.hero-text>p {
+    font-size: 1em;
+    font-style:italic;
+}
+
+.nav-header {
+    position: relative;
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.nav-logo {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-list:last-child {
+    margin-right: 30px;
+}
+.nav-item {
+    margin-left: 30px;
+}
+
+.nav-link {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.block {
+    max-width: 100%;
+    margin-bottom: 50%;
+    margin: 2em 20em;
+}
+
+.box {
+    padding: 2em;
+    margin: 30px;
+    background-color: #fff;
+    box-shadow: 0 5px 20px 0 rgba(20, 26, 22, 0.5);
+    border-radius: 20px;
+}
+
+figure {
+    display: block; 
+    margin: 0 10px 10px 0;
+    text-align: center;
+}
+
+.text {
+    font-size: 1.5em;
+    margin: 0;
+    text-align: center;
+    color: #212121;
+}
+
+.cards-coffee {
+    display: flex;
+    margin: 0 -8px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-coffee {
+    display: flex;
+    flex-direction: column;
+    max-height: 550px;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    flex: 0 0 25%;
+    justify-content: space-between;
+}
+
+.card-main {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    padding: 30px 26px;
+    background-color: #fff;
+    justify-content: flex-start;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 15px;
+    margin-bottom: 30px;
+}
+
+.card-text {
+    line-height: 15px;
+    line-height: 15px;
+    font-size: 1em;
+}
+
+footer {
+    color: #fff;
+    background: #525252;
+}
