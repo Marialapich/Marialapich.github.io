@@ -1,39 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./styles/style.css"/>
-        <title>Homework</title>
-    </head>
-    <body>
-        <h1>Homework</h1>
-        <ol>
-            <li>
-                <a href="./homework1/index.html">Homework 1</a>
-            </li>
-            <li>
-                <a href="./homework2/index.html">Homework 2</a>
-            </li>
-            <li>
-                <a href="./homework4/index.html">Homework 3</a>
-            </li>
-            <li>
-                <a href="./homework6/index.html">Homework 5</a>
-            </li>
-            <li>
-                <a href="./homework7/index.html">Homework 6 (Flex)</a>
-            </li>
-            <li>
-                <a href="./homework7/float-grid.html">Homework 6 (Flex grid)</a>
-            </li>
-            <li>
-                <a href="./Cards/index.html">Cards</a>
-            </li>
-            <li>
-                <a href="./projekt/index.html"> Проект</a>
-            </li>
-        </ol>
-    </body>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Wake up</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="menu">
+                <a class="logo" href="./index.html">Wace Cup</a>
+                <div class="burger">
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </nav>
+        <div class="screen" id="Home">
+            <div class="main">
+                <header class="header__one">
+                    <div class="header">
+                        <div class="header__item">
+                            <h2 class="title">Wake Cup</h2>
+                            <p> Яркая жизнерадостная кофейня на колесах, в которой вы можете попробовать различные виды холодного и горячего кофе, а также другие безалкогольные напитки.
+                            </p>
+                        </div>
+                    </div>
+                </header>
+            </div>
+
+            <div class="shadow one"></div>
+            <div class="shadow two"></div>
+        </div>
+
+        <div class="screen" id="History">
+            <div class="main">
+                <header class="header__two">
+                    <div class="header">
+                        <div class="header__item">
+                            <h2 class="title">История Wake Cup</h2>
+                            <p> Здесь вы узнаете историю кофейни на колесах.
+                            </p>
+                            <a href="./history.html" class="btn">Узнать подробней</a>
+                        </div>
+                    </div>
+                </header>
+            </div>
+
+            <div class="shadow one"></div>
+            <div class="shadow two"></div>
+        </div>
+
+        <div class="screen" id="Menu">
+            <div class="main">
+                <header class="header__three">
+                    <div class="header">
+                        <div class="header__item">
+                            <h2 class="title">Меню Wake Cup</h2>
+                            <p> Здесь вы можете поподробней узнать весь ассортимент напитков.
+                            </p>
+                            <a href="./menu.html" class="btn">Узнать подробней</a>
+                        </div>
+                    </div>
+                </header>
+            </div>
+
+            <div class="shadow one"></div>
+            <div class="shadow two"></div>
+        </div>
+
+        <div class="screen" id="Kontact">
+            <div class="main">
+                <header class="header__four">
+                    <div class="header">
+                        <div class="header__item">
+                            <h2 class="title">Контакты Wake Cup</h2>
+                            <p> г. Гродно, площадь Советская 1</p>
+                            <p> Мы работаем:<br> 
+                                понедельник-пятница: 08:00-23:00<br>
+                                суббота-воскресение: 09:00-23:00
+                            </p>
+                        </div>
+                    </div>
+                </header>
+            </div>
+
+            <div class="shadow one"></div>
+            <div class="shadow two"></div>
+        </div>
+
+        <div class="links">
+            <ul>
+                <li>
+                    <a class="link" data-link="Home" ref="#" style="--i: .1s">Главная</a>
+                </li>
+                <li>
+                    <a class="link" data-link="History" ref="#" style="--i: .3s">История</a>
+                </li>
+                <li>
+                    <a class="link" data-link="Menu" ref="#" style="--i: .5s">Меню</a>
+                </li>
+                <li>
+                    <a class="link" data-link="Kontact" ref="#" style="--i: .7s">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="./js/main.js"></script>
+</body>
 </html>

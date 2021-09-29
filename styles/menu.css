@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+body{
+    color: #fff;
+    background-color:#ffd54fe0;
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  height: 0.3rem;
+}
+.navbar .menu {
+  max-width: 80rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.navbar .menu .logo {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 4rem;
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%; 
+}
+
+.containers {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+header {
+  background-color: #ffb300c9;
+  padding: 1rem;
+}
+header h1 {
+  font-size: 2.5rem;
+  margin: 20px 0 10px 0;
+  color: white;
+  text-align: center;
+}
+
+form input {
+  width: 20rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  border-bottom: 2px solid rgb(255, 255, 0);
+  margin-bottom: 1rem;
+}
+
+.btn {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 1rem;
+  background-color: #ff9800;
+  padding: 5px;
+  border-radius: 3px;
+}
+.active {
+  background-color: #ff9800;
+}
+#menu-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  column-gap: 2rem;
+  row-gap: 2rem;
+  padding: 1rem;
+}
+
+.store-product {
+  border: 1px solid #eee;
+  border-radius: 3px;
+  max-width: 250px;
+}
+
+.menu-details {
+  text-align: center;
+  padding-bottom: 1rem;
+  background-color: rgb(240, 234, 157);
+}
+
+.menu-details h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: black;
+}
+
+.menu-details p {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  color: rgb(250, 0, 0);
+  font-weight: 700;
+}
+
